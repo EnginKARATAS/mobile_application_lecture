@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/materialize.min.css" />
-    <script src="/js/materialize.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
     <!--navbar-->
     <nav>
-      <div class="nav-wrapper" style="background-color: aquamarine">
+      <div class="nav-wrapper" style="background-color: rgb(82, 224, 177)">
+        <a>
+            <i data-target="slide-out" class="sidenav-trigger material-icons"
+              >clear_all</i>
+          </a>
         <a href="#" class="brand-logo"
           >Engin Karatas Personal Portfoilo Website</a
         >
@@ -24,26 +32,36 @@
         </ul>
       </div>
     </nav>
+    <!--sidenav-->
     <ul id="slide-out" class="sidenav">
-        <li><div class="user-view">
+      <li>
+        <div class="user-view">
           <div class="background">
-            <img src="images/office.jpg">
+            <img src="images/office.jpg" />
           </div>
-          <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+          <a href="#user"><img class="circle" src="images/yuna.jpg" /></a>
           <a href="#name"><span class="white-text name">John Doe</span></a>
-          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-      </ul>
-      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#email"
+            ><span class="white-text email">jdandturk@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
+      </li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
 
     <!--content-->
 
-    . eteration bootcamp 1 ağustos 20 haziran
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam id
+      commodi maxime eos cupiditate vitae distinctio quibusdam temporibus, minus
+      et ex labore, est eveniet facilis debitis, nisi deleniti perspiciatis vel?
+    </div>
 
     <!--footer-->
     <footer class="page-footer" style="background-color: aquamarine">
@@ -74,5 +92,7 @@
       </div>
     </footer>
   </body>
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
   <script src="/js/sidenav.js"></script>
 </html>
